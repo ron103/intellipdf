@@ -22,19 +22,13 @@ with st.sidebar:
     - [OpenAI](https://platform.openai.com/docs/models)
     
     ### Check out more such cool projects on:    
-    ''')
     
-    
-    col1,col2=st.columns(2)
-    with col1:
-        st.markdown('''
         
-        - [github](https://github.com/ron103)      
-        - [rohanwaghmare](https://rohanwaghmare.com)''')  
+    - [github](https://github.com/ron103)      
+    - [rohanwaghmare](https://rohanwaghmare.com)''')  
                 
     
-    with col2:
-        st.image(image, caption='', width=80, use_column_width=False, clamp=False, channels="RGB", output_format="auto")
+    
 for _ in range(5):
     st.write("") 
     
